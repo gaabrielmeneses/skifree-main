@@ -1,0 +1,119 @@
+div {
+  display: inline-block;
+}
+
+#montanha {
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+}
+
+#skier {
+  position: absolute;
+}
+
+#painel {
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  bottom: 300px;
+  text-align: center;
+}
+
+.arvore {
+  background-image: url(obstacles.png);
+  background-position: 0px -31px;
+  width: 28px;
+  height: 31px;
+  position: absolute;
+  margin: 2px;
+}
+
+.arvoreFogo {
+  background-image: url(obstacles.png);
+  background-position: -49px -102px;
+  width: 21px;
+  height: 28px;
+  position: absolute;
+  margin: 2px;
+}
+
+.arvoreGrande {
+  background-image: url(obstacles.png);
+  background-position: -95px -68px;
+  width: 33px;
+  height: 62px;
+  position: absolute;
+  margin: 2px;
+}
+
+.rocha {
+  background-image: url(obstacles.png);
+  background-position: -29px -52px;
+  width: 26px;
+  height: 12px;
+  position: absolute;
+  margin: 2px;
+}
+
+.toco {
+  background-image: url(obstacles.png);
+  background-position: -252px -51px;
+  width: 19px;
+  height: 12px;
+  position: absolute;
+  margin: 2px;
+}
+
+.cachorro {
+  background-image: url(skier.png);
+  background-position: -67px -203px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin: 2px;
+}
+
+.cogumelo {
+  background-image: url(obstacles.png);
+  background-position: -271px -51px;
+  width: 10px;
+  height: 12px;
+  position: absolute;
+  margin: 2px;
+}
+
+.caiu {
+  background-image: url(skier.png);
+  background-position: 0px -85px;
+  width: 31px;
+  height: 24px;
+}
+
+.gameOver {
+  background-image: url(skier.png);
+  background-position: -242px 0px;
+  width: 30px;
+  height: 32px;
+}
+
+.para-frente {
+  background-image: url(skier.png);
+  background-position: -67px -2px;
+  width: 15px;
+  height: 32px;
+}
+
+.para-direita {
+  background-image: url(skier.png);
+  background-position: -26px -6px;
+  width: 22px;
+  height: 28px;
+}
+
+.para-esquerda {
+  background-image: url(skier.png);
+  background-position: -26px -43px;
+  width: 22px;
+  height: 28px;
+}
